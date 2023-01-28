@@ -16,7 +16,9 @@
     --p-font:1.1rem;
 }
 body{
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
+    background-color: #561f2f;
+    opacity: 0.8;
     color:white;
 }
 header{
@@ -41,12 +43,18 @@ header{
 
 .navlist{
     display: flex;
+    /* position: fixed; */
+    list-style: none;
    
 }
 
 .navlist li{
     position:relative;
+   
 }
+
+
+
 .navlist a{
     font-size: var(--p-font);
     color: white;
@@ -67,7 +75,8 @@ header{
     width:100%;
 }
 #home{
-    background-color:black;
+    background-color: #561f2f;
+    opacity: 0.8;
 }
 #menu-icon{
     font-size: 35px;
@@ -171,7 +180,8 @@ header.sticky{
 
 }
 .sub-service{
-    background-color: black;
+    background-color: #561f2f;
+    opacity: 0.8;
 }
 .sub-box{
     padding:45px 45px 45px 45px;
@@ -206,7 +216,8 @@ header.sticky{
     grid-template-columns: repeat(2,2fr);
     align-items:center;
     grid-gap:2rem;
-    background-color:black;
+    background-color: #561f2f;
+    opacity: 0.8;
 }
 .about-img img{
     max-width:100%;
@@ -255,7 +266,8 @@ header.sticky{
     line-height:28px;
 }
 #portfolio{
-    background-color:black;
+    background-color: #561f2f;
+    opacity: 0.8;
 }
 
 .portfolio-content{
@@ -326,7 +338,8 @@ header.sticky{
     }
 
 #service{
-    background-color: black;
+    background-color: #561f2f;
+    opacity: 0.8;
 }
 .row{
     background-color: #ffffff;
@@ -361,7 +374,8 @@ header.sticky{
 
 #contact{
     min-height:100vh;
-    background: url(girlsbg.jpg);
+    /* background: url(girlsbg.jpg); */
+    background: url(ww.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
